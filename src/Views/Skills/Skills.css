@@ -7,3 +7,199 @@
     max-width: unset;
   }
 }
+
+#Skills {
+    /* width: 90%; */
+    margin: 0 auto;
+    /* max-width: 1460px; */
+    display: flex;
+    flex-direction: column;
+
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1.5;
+}
+
+.skills{
+  text-align: center;
+    font-size: 80px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.tech {
+    margin: 20px;
+    /* padding: 0 20px 0 20px; */
+    /* display: flex; */
+    /* flex-direction: column; */
+}
+.tech p{
+  font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.devicon-python-plain:before {
+    content: "\eb89"
+}
+
+.devicon-java-plain-wordmark:before {
+    content: "\e841"
+}
+
+.devicon-python-plain-wordmark.colored,
+.devicon-python-plain.colored {
+    color: #f7c614
+}
+
+.devicon-java-plain-wordmark.colored,
+.devicon-java-plain.colored {
+    color: #bd2828
+}
+
+
+.devicon-cplusplus-plain-wordmark:before,
+.devicon-cplusplus-plain:before {
+    content: "\e635"
+}
+
+.devicon-cplusplus-line-wordmark.colored,
+.devicon-cplusplus-line.colored,
+.devicon-cplusplus-plain-wordmark.colored,
+.devicon-cplusplus-plain.colored {
+    color: #9c033a
+}
+
+.devicon-javascript-plain:before {
+    content: "\e845"
+}
+
+.devicon-javascript-plain.colored {
+    color: #f0db4f
+}
+
+
+.devicon-react-original-wordmark:before,
+.devicon-react-plain-wordmark:before {
+    content: "\e600"
+}
+
+.devicon-react-original:before,
+.devicon-react-plain:before {
+    content: "\e601"
+}
+
+.devicon-react-original-wordmark.colored,
+.devicon-react-original.colored,
+.devicon-react-plain-wordmark.colored,
+.devicon-react-plain.colored {
+    color: #61dafb
+}
+
+.devicon-bootstrap-plain:before {
+    content: "\e62f"
+}
+
+.devicon-bootstrap-plain-wordmark.colored,
+.devicon-bootstrap-plain.colored {
+    color: #59407f
+}
+
+.devicon-html5-plain-wordmark:before {
+    content: "\e7f6"
+}
+
+.devicon-html5-plain-wordmark.colored,
+.devicon-html5-plain.colored {
+    color: #e54d26
+}
+
+.devicon-css3-plain-wordmark:before {
+    content: "\e678"
+}
+
+.devicon-css3-plain-wordmark.colored,
+.devicon-css3-plain.colored {
+    color: #3d8fc6
+}
+
+.devicon-nodejs-plain:before {
+    content: "\eb6a"
+}
+.devicon-nodejs-plain-wordmark.colored,
+.devicon-nodejs-plain.colored {
+    color: #83cd29
+}
+
+.devicon-express-original:before {
+    content: "\e93d"
+}
+
+.devicon-express-original-wordmark.colored,
+.devicon-express-original.colored {
+    color: #444
+}
+
+.devicon-mongodb-plain-wordmark:before {
+    content: "\eb43"
+}
+.devicon-mongodb-plain-wordmark.colored,
+.devicon-mongodb-plain.colored {
+    color: #4faa41
+}
+
+.devicon-mysql-plain-wordmark:before {
+    content: "\eb60"
+}
+
+.devicon-mysql-plain-wordmark.colored,
+.devicon-mysql-plain.colored {
+    color: #00618a
+}
+
+.devicon-git-plain:before {
+    content: "\e7a8"
+}
+.devicon-git-plain-wordmark.colored,
+.devicon-git-plain.colored {
+    color: #f34f29
+}
+
+
+.devicon-visualstudio-plain:before {
+    content: "\e927"
+}
+.devicon-visualstudio-plain-wordmark.colored,
+.devicon-visualstudio-plain.colored {
+    color: #68217a
+}
+
+.devicon-github-plain:before {
+    content: "\e909"
+}
+
+.devicon-github-original.colored,
+.devicon-github-plain.colored {
+    color: #181616
+}
+
+.devicon-docker-plain:before {
+    content: "\e61f"
+}
+
+.devicon-docker-plain.colored {
+    color: #019bc6
+}
