@@ -7,7 +7,7 @@ export default function Volunteer() {
     <div className="section" id="Volunteer">
       <div className="container">
 
-        <SectionTitle title="VOLUNTEERING" quotes={volunteerQuote} quotesAuthor={volunteerQuoteAuthor}></SectionTitle>
+        <SectionTitle title="VOLUNTEE" quotes={volunteerQuote} quotesAuthor={volunteerQuoteAuthor}></SectionTitle>
 
         <Card 
               title="Phase Shift" 
@@ -22,7 +22,7 @@ export default function Volunteer() {
               title="Workshops" 
               subTitle="conducted various workshops and volunteered them during 3rd year of college." 
               date="Oct.2019– Nov.2019" 
-              location="Arraba" 
+              location="Bangalore" 
               details={leadershipDetails} 
               detailsType="p"
                myVideoId="">

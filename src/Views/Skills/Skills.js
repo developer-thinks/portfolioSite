@@ -14,58 +14,160 @@ export default function Skills() {
 
         <SectionTitle title="Skills" quotes="" quotesAuthor=""></SectionTitle>
 
-        <div className="row">
+        {/* <div className="row">
           <div className="skills">
             <div className="col-sm-3 skills-col">
             <div class="tech">
-            {/* <h2>Languages</h2> */}
-            <i class="devicon-cplusplus-plain colored"></i>
-            <i class="devicon-javascript-plain colored"></i>
-            <br />
-            <i class="devicon-python-plain colored"></i>
-            <i class="devicon-java-plain-wordmark colored"></i>
+              <div className="col-sm-6">
+                <div className="skill">
+                  <i class="devicon-cplusplus-plain colored"></i>
+              </div>
+              <div className="skill">
+                  <i class="devicon-javascript-plain colored"></i>
+              </div>
+              </div>
+              <div className="col-sm-6">
+                 <div className="skill">
+                  <i class="devicon-python-plain colored"></i>
+              </div>
+              <div className="skill">
+                   <i class="devicon-java-plain-wordmark colored"></i>
+              </div>
+              </div>
+            </div>
             <p> My favorite languages  </p>
-            </div>
           </div>
 
           <div className="col-sm-3 skills-col">
             <div class="tech">
-            {/* <h2>Front-End</h2> */}
-                <i class="devicon-html5-plain-wordmark colored"></i>
-                <i class="devicon-css3-plain-wordmark colored"></i>
+            <div className="skill">
+                   <i class="devicon-html5-plain-wordmark colored"></i>
+                </div>
+                <div className="skill">
+                  <i class="devicon-css3-plain-wordmark colored"></i>
+                </div>
+               
+                
                 <br />
-                <i class="devicon-react-original colored"></i>
-                <i class="devicon-bootstrap-plain colored"></i>
+                <div className="skill">
+                  <i class="devicon-react-original colored"></i>
+                </div>
+                <div className="skill">
+                   <i class="devicon-bootstrap-plain colored"></i>
+                </div>
+            </div>
             <p> Frontend technologies  </p>
-            </div>
           </div>
 
           <div className="col-sm-3 skills-col">
             <div class="tech">
-            {/* <h2>Back-End</h2> */}
-                <i class="devicon-nodejs-plain colored"></i>
-                <i class="devicon-express-original colored"></i>
+                <div className="skill">
+                   <i class="devicon-nodejs-plain colored"></i>
+                </div>
+                <div className="skill">
+                  <i class="devicon-express-original colored"></i>
+                </div>  
                 <br />
-                <i class="devicon-mongodb-plain-wordmark colored"></i>
-                <i class="devicon-mysql-plain-wordmark colored"></i>
+                <div className="skill">
+                  <i class="devicon-mongodb-plain-wordmark colored"></i>
+                </div>
+                <div className="skill">
+                  <i class="devicon-mysql-plain-wordmark colored"></i>
+                </div>
+            </div>
             <p>Backend technologies  </p>
-            </div>
           </div>
 
           <div className="col-sm-3 skills-col">
-            <div class="tech">
-            {/* <h2>Tools</h2> */}
-                <i class="devicon-git-plain colored"></i>
-                <i class="devicon-visualstudio-plain colored"></i>
+            <div class="tech"> 
+            <div className="skill">
+                  <i class="devicon-git-plain colored"></i>
+                </div>
+                <div className="skill">
+                  <i class="devicon-visualstudio-plain colored"></i>
+                </div>
+                
                 <br />
-                <i class="devicon-github-plain colored"></i>
-                <i class="devicon-linux-plain colored"></i>
+
+                <div className="skill">
+                  <i class="devicon-github-plain colored"></i>
+                </div>
+                <div className="skill">
+                  <i class="devicon-linux-plain colored"></i>
+                </div>
+            </div>
             <p> version control, code editing  </p>
+          </div>
+          </div>
+        </div> */}
+
+        {/* <div className="row">
+          <div className="skills">
+            <div className="skill">
+                <i class="devicon-cplusplus-plain colored"></i>
+                <i class="devicon-javascript-plain colored"></i>
+                <i class="devicon-python-plain colored"></i>
+                <i class="devicon-java-plain-wordmark colored"></i>
+            </div>
+            <div className="skill">
+              <i class="devicon-html5-plain-wordmark colored"></i>
+              <i class="devicon-css3-plain-wordmark colored"></i>
+              <i class="devicon-react-original colored"></i>
+              <i class="devicon-bootstrap-plain colored"></i>
+            </div>
+            <div className="skill">
+              <i class="devicon-nodejs-plain colored"></i>
+              <i class="devicon-express-original colored"></i>
+              <i class="devicon-mongodb-plain-wordmark colored"></i>
+              <i class="devicon-mysql-plain-wordmark colored"></i>
+            </div>
+            <div className="skill">
+              <i class="devicon-git-plain colored"></i>
+              <i class="devicon-visualstudio-plain colored"></i>
+              <i class="devicon-linux-plain colored"></i>
+               <i class="devicon-github-plain colored"></i>
             </div>
           </div>
+        </div> */}
+
+         <div className="row">
+          <div className="skills">
+    
+              <div className="col-sm-3 skill" >
+                <i class="devicon-cplusplus-plain colored"></i>
+                <i class="devicon-javascript-plain colored"></i>
+                <br />
+                <i class="devicon-python-plain colored"></i>
+                <i class="devicon-java-plain-wordmark colored"></i>
+              </div>
+                
+              <div className="col-sm-3 skill" >
+                <i class="devicon-html5-plain-wordmark colored"></i>
+              <i class="devicon-css3-plain-wordmark colored"></i>
+              <br />
+              <i class="devicon-react-original colored"></i>
+              <i class="devicon-bootstrap-plain colored"></i>
+              </div>
+              
+              <div className="col-sm-3 skill" >
+                <i class="devicon-nodejs-plain colored"></i>
+              <i class="devicon-express-original colored"></i>
+              <br />
+              <i class="devicon-mongodb-plain-wordmark colored"></i>
+              <i class="devicon-mysql-plain-wordmark colored"></i>
+              </div>
+              
+              <div className="col-sm-3 skill" >
+                 <i class="devicon-git-plain colored"></i>
+              <i class="devicon-visualstudio-plain colored"></i>
+              <br />
+              <i class="devicon-linux-plain colored"></i>
+               <i class="devicon-github-plain colored"></i>
+              </div>
+             
+            
           </div>
         </div>
-
 
 
         {/* <div className="row">
