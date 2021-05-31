@@ -60,16 +60,19 @@
   font-size: 72px;
   color: #333;
   margin-bottom: 30px;
+  text-transform: uppercase;
 }
 
 .sub-title {
-  color: #ff6600;
+  color: #101263e0;
   margin-top: 30px;
   margin-bottom: 30px;
+  text-transform: uppercase;
 }
 
 .about-me {
-  font-family: "Trocchi", serif;
+  /* font-family: "Trocchi", serif; */
+  font-family: 'Rubik', sans-serif;
   font-weight: normal;
   margin: 0;
   color: #333;
@@ -81,7 +84,7 @@
 .proflie-img {
   border-radius: 20%;
   width: auto;
-  height: 390px;
+  height: 290px;
   object-fit: contain;
   /* box-shadow:
   0 2.8px 2.2px rgba(0, 0, 0, 0.034),
@@ -112,11 +115,12 @@
 
 h5 {
   margin-top: 30px;
-  color: #ff6600;
+  color: #9e3174;
 }
 
 h6 {
   display: inline;
+  color: #1a143b;
 }
 
 @media screen and (max-width: 1400px) {

@@ -1,7 +1,7 @@
 import React from "react";
 import "./Main.css";
 import ParticlesBg from "particles-bg";
-import Particles from 'react-particles-js';
+// import Particles from 'react-particles-js';
 import MainCard from "../../Components/MainCard/MainCard";
 
 export default function Main() {

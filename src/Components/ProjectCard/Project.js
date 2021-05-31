@@ -13,7 +13,7 @@ export default function Project(props) {
                     <p key={indx}>{value}</p>
                 ))}
 
-                <button style={projectLink === undefined ? { display: "none" } : { display: "block" }} onClick={() => window.open(projectLink, '_blank', 'noopener,noreferrer')} type="button" className="btn btn-outline-danger">Website</button>
+                <button style={projectLink === undefined ? { display: "none" } : { display: "block" }} onClick={() => window.open(projectLink, '_blank', 'noopener,noreferrer')} type="button" className="btn btn-secondary">Website</button>
 
             </div>
 

@@ -1,24 +1,40 @@
-.linkedin,
-.github,
-.mail,
-.phone {
+
+.linkedin{
   display: inline-block;
-  color: #ff6600;
+  color: #2867b2;
+  margin: 50px 50px 50px 50px !important;
+}
+
+.github{
+  display: inline-block;
+  color: #1a1009;
+  margin: 50px 50px 50px 50px !important;
+}
+
+.mail{
+  display: inline-block;
+  color: #b23121;
+  margin: 50px 50px 50px 50px !important;
+}
+
+.phone{
+  display: inline-block;
+  color: #0d3118;
   margin: 50px 50px 50px 50px !important;
 }
 
 .linkedin :hover {
-  color: #2867b2;
+  color: #32126e;
 }
 
 .github :hover {
-  color: #24292e;
+  color: #110a72;
 }
 
 .mail :hover {
-  color: #b23121;
+  color: #80372d;
 }
 
 .phone :hover {
-  color: #00ff00;
+  color: #105310;
 }

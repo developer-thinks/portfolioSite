@@ -7,7 +7,7 @@ export default function Volunteer() {
     <div className="section" id="Volunteer">
       <div className="container">
 
-        <SectionTitle title="volunteering" quotes={volunteerQuote} quotesAuthor={volunteerQuoteAuthor}></SectionTitle>
+        <SectionTitle title="VOLUNTEERING" quotes={volunteerQuote} quotesAuthor={volunteerQuoteAuthor}></SectionTitle>
 
         <Card 
               title="Phase Shift" 

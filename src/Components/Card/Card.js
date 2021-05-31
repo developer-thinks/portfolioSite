@@ -36,6 +36,7 @@ export default function Card(props) {
 
                     ) : null}
 
+                    
                     <div style={myVideoId === "" ? { display: "none" } : {}}>
                         <YouTube className="youtubeVideo" videoId={myVideoId} opts={{ width: '100%' }}></YouTube>
                     </div>

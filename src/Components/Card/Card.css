@@ -13,11 +13,12 @@
   }
   
   .card-name {
-    font-family: "Trocchi", serif;
-    font-size: 28px;
-    font-weight: normal;
-    line-height: 48px;
+    font-family: roboto;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 40px;
     margin: 0;
+    color: rgb(42, 41, 110);
   }
   
   .card-date {
@@ -29,7 +30,7 @@
   }
   
   .card-location {
-    color: #ff6600;
+    color: #9e133c;
     font-size: 15px;
     margin-bottom: 10px;
   }
@@ -45,6 +46,7 @@
   
   .card-details-title {
     font-weight: bold;
+    color: #b32121;
   }
 
   .par-details{

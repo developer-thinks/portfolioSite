@@ -8,7 +8,7 @@ export default function Experience() {
     <div className="section" id="Experiences" style={{ backgroundColor: "#e0e0e0" }}>
       <div className="container">
 
-        <SectionTitle title="Education" quotes={expQuote} quotesAuthor={expQuoteAuthor}></SectionTitle>
+        <SectionTitle title="EDUCATION" quotes={expQuote} quotesAuthor={expQuoteAuthor}></SectionTitle>
 
         {/* <h2 style={{ color: "#ff6600", marginBottom: "30px", marginTop: "30px" }}>Career</h2>
 
