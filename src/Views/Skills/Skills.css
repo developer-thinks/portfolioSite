@@ -32,7 +32,10 @@
     /* flex-direction: column; */
 }
 .skills p{
-  font-size: 16px;
+  font-size: 18px;
+  text-transform: uppercase;
+  padding-top: 40px;
+  padding-left: 5px;
 }
 
 .skills{
@@ -53,8 +56,32 @@
 }
 
 
+@media screen and (max-width: 766px){
+    .skills p{
+        font-size: 16px;
+        padding-top: 45px;
+    }
+    .skills{
+        font-size: 70px;
+    }
+}
 
+@media screen and (max-width: 576px){
+    .skills p{
+        font-size: 20px;
+        padding-top: 15px;
+    }
+}
 
+@media screen and (max-width: 390px){
+    .skills p{
+        font-size: 20px;
+        padding-top: 25px;
+    }
+    .skills{
+        font-size: 80px;
+    }
+}
 
 
 

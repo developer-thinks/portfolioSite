@@ -139,6 +139,8 @@ export default function Skills() {
                 <br />
                 <i class="devicon-python-plain colored"></i>
                 <i class="devicon-java-plain-wordmark colored"></i>
+                <br />
+                <p> Programming languages</p>
               </div>
                 
               <div className="col-sm-3 skill" >
@@ -147,6 +149,7 @@ export default function Skills() {
               <br />
               <i class="devicon-react-original colored"></i>
               <i class="devicon-bootstrap-plain colored"></i>
+              <p> Front-End Technologies</p>
               </div>
               
               <div className="col-sm-3 skill" >
@@ -155,6 +158,7 @@ export default function Skills() {
               <br />
               <i class="devicon-mongodb-plain-wordmark colored"></i>
               <i class="devicon-mysql-plain-wordmark colored"></i>
+              <p> Back-End Technologies</p>
               </div>
               
               <div className="col-sm-3 skill" >
@@ -163,6 +167,7 @@ export default function Skills() {
               <br />
               <i class="devicon-linux-plain colored"></i>
                <i class="devicon-github-plain colored"></i>
+               <p> Other Technology Tools</p>
               </div>
              
             
