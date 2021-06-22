@@ -23,7 +23,7 @@ ReactDOM.render(
       <Experience />
       <Projects />
       <Skills />
-      <Volunteer />
+      {/* <Volunteer /> */}
       <Contact />
       <footer id="footer">
         <h6 className="rights">Copyright © {new Date().getFullYear()} sammed.sankonatti</h6>

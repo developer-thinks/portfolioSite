@@ -18,9 +18,9 @@ class Profile extends React.Component {
 
               <div><p className="about-me">Electrical Engineering Student with Bachelor's degree from  BMS College of engineering Bangalore.</p></div>
               <div><p className="about-me">Fashionated coder and interested in competative coding.</p></div>
-              <div><p className="about-me">Interested in software development</p></div>
-              <div><p className="about-me">Team player, hard-worker, self-learner and work on my skills.</p></div>
-              <div><p className="about-me">Looking for a new challenge as a Software engineer or a full-stack position, with the possibility of a Full-time job starting from 2021.</p></div>
+              {/* <div><p className="about-me">Interested in software development</p></div> */}
+              <div><p className="about-me">Self-learner and work on my skills to improve them.</p></div>
+              <div><p className="about-me">Looking for a new challenge as a Software engineer or a full-stack position, with the possibility of a Full-time job.</p></div>
             </div>
             <div className="col-sm-5 image-col">
               <img className="proflie-img" src={profliePic} alt="profile"></img>

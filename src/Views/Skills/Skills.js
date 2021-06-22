@@ -134,39 +134,40 @@ export default function Skills() {
           <div className="skills">
     
               <div className="col-sm-3 skill" >
-                <i class="devicon-cplusplus-plain colored"></i>
-                <i class="devicon-javascript-plain colored"></i>
+                <i class=" icons devicon-cplusplus-plain colored"></i>
+                <i class=" icons devicon-javascript-plain colored"></i>
                 <br />
-                <i class="devicon-python-plain colored"></i>
-                <i class="devicon-java-plain-wordmark colored"></i>
+                <i class=" icons devicon-python-plain colored"></i>
+                <i class=" icons devicon-java-plain-wordmark colored"></i>
                 <br />
                 <p> Programming languages</p>
               </div>
                 
               <div className="col-sm-3 skill" >
-                <i class="devicon-html5-plain-wordmark colored"></i>
-              <i class="devicon-css3-plain-wordmark colored"></i>
+                <i class="icons devicon-html5-plain-wordmark colored"></i>
+              <i class="icons devicon-css3-plain-wordmark colored"></i>
               <br />
-              <i class="devicon-react-original colored"></i>
-              <i class="devicon-bootstrap-plain colored"></i>
+              <i class="icons devicon-react-original colored"></i>
+              <i class="icons devicon-bootstrap-plain colored"></i>
+              <br />
               <p> Front-End Technologies</p>
               </div>
               
               <div className="col-sm-3 skill" >
-                <i class="devicon-nodejs-plain colored"></i>
-              <i class="devicon-express-original colored"></i>
+                <i class="icons devicon-nodejs-plain colored"></i>
+              <i class="icons devicon-express-original colored"></i>
               <br />
-              <i class="devicon-mongodb-plain-wordmark colored"></i>
-              <i class="devicon-mysql-plain-wordmark colored"></i>
+              <i class="icons devicon-mongodb-plain-wordmark colored"></i>
+              <i class="icons devicon-mysql-plain-wordmark colored"></i>
               <p> Back-End Technologies</p>
               </div>
               
               <div className="col-sm-3 skill" >
-                 <i class="devicon-git-plain colored"></i>
-              <i class="devicon-visualstudio-plain colored"></i>
+                 <i class="icons devicon-git-plain colored"></i>
+              <i class="icons devicon-visualstudio-plain colored"></i>
               <br />
-              <i class="devicon-linux-plain colored"></i>
-               <i class="devicon-github-plain colored"></i>
+              <i class="icons devicon-linux-plain colored"></i>
+               <i class="icons devicon-github-plain colored"></i>
                <p> Other Technology Tools</p>
               </div>
              

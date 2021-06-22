@@ -25,9 +25,9 @@ export default function Experience() {
 
         <Card 
                 title="BMS College" 
-                subTitle="B.Tech Electrical Engineering." 
+                subTitle="B.Tech in Electrical and Electronics Engineering." 
                 date="Aug.2017 – Jun.2021" 
-                location="Bangalore, In" 
+                location="Bangalore, India" 
                 details={samDetailsGrad} 
                 detailsType="p"
                 myVideoId="">
@@ -37,8 +37,17 @@ export default function Experience() {
                 title="Tungal Science College" 
                 subTitle="PU in Science with Mathematics and Statistics." 
                 date="Jun.2015 – May.2017" 
-                location="Jamkhandi, Ka" 
-                details={samDetails} 
+                location="Jamkhandi, Karnataka" 
+                details={samDetailsPu} 
+                detailsType="p"
+                myVideoId="">
+          </Card>
+          <Card 
+                title="SSDP kokatnoor" 
+                subTitle=" Higher-primary Schooling" 
+                date="Jun.2012 – march.2015" 
+                location="kokatnoor, Athani" 
+                details={samDetailsHigh} 
                 detailsType="p"
                 myVideoId="">
           </Card>
@@ -68,22 +77,18 @@ const smarUpDetails = [
 // ]
 
 const samDetailsGrad = [
-  " CGPA: 8.2, Excelling and determined student ."
-  , "Top Courses: Data Structures, Algorithms, C++, OOPS, Operating System, Linux, Database Systems and Computer Networks."
+  "BMS college of Engineering Bangalore",
+  " CGPA: 8.2"
 ]
 
-const samDetails = [
-  "passed out with 92% in PU board and CET score of 4500.",
-  "participated in Atheletic sports like Running and Chess. ",
-  "cleared NDA(National Defence Academy) test during 2nd PUC April 2017"
+const samDetailsPu = [
+  "Karnataka State Board for Higher Secondary Education.",
+   "Percentage: 92% ",
+   "CET : 4500.",
 ]
 
-const teachingAssistantDetails = [
-  "Led weekly office hours to 15 students: training OOP, homework assistance."
-  , "Checked and graded data structures homework for 100+ students."
+const samDetailsHigh =[
+  "Central Board of Secondary Education",
+  "CGPA: 9.6"
 ]
 
-const coordinatorDetails = [
-  "Helped Arab students at Afeka College with their various needs."
-  , "Multiplicated the number of Arabs students per year and reduced the failing percentage of first year students."
-]

@@ -33,7 +33,7 @@
 }
 .skills p{
   font-size: 18px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   padding-top: 40px;
   padding-left: 5px;
 }
@@ -53,6 +53,16 @@
     /* padding: 0 10px; */
     align-items: center;
     flex-wrap: wrap;
+}
+
+.icons{
+    padding: 8px;
+}
+
+@media screen and (max-width: 390px) and (min-width: 348px){
+    .icons{
+        padding: 20px;
+    }
 }
 
 
