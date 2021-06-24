@@ -7,7 +7,7 @@
   background-color: rgba(85, 85, 85, 0.7);
   border-radius: 1rem;
   /* color: rgb(163, 158, 192); */
-  background: linear-gradient(to right, rgb(209, 209, 12), rgb(218, 124, 124) , rgb(202, 202, 92));
+  background: linear-gradient(to right, #73b7e4, #1aa1ce);
   padding: 0;
   font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
     "Arial", sans-serif;
@@ -32,13 +32,13 @@ div.scroll:hover .scrollText {
 }
 
 .scrollIcon {
-  color: #230f44;
+  color: #0a89af;
   display: block;
 }
 
 .scrollText {
   color: #1d0538;
-  font-family: Dosis;
+  font-family: roboto;
   letter-spacing: 2px;
   font-size: 32px;
   display: none;
@@ -46,22 +46,26 @@ div.scroll:hover .scrollText {
 
 .name {
   position: relative;
-  font-size: 54px;
+  font-size: 64px;
   margin-bottom: 1vw;
+  font-family: 'Rubik', sans-serif;
 }
 
 .status {
   margin-left: 3vw;
   margin-right: 3vw;
   /* color: #FFFF00; */
-  color: #0a143f;
+  color: #4d073d;
+  font-size: xx-large;
 }
 
 .status1 {
   margin-left: 3vw;
   margin-right: 3vw;
+  font-size: 28px;
+  font-family: 'roboto', sans-serif;
   /* color: #FFFF00; */
-  color: rgb(10, 58, 18);
+  color: rgb(53, 7, 7);
 }
 
 

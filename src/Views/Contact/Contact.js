@@ -9,7 +9,7 @@ export default function Contact() {
     <div className="section" id="Contact" style={{ textAlign: "center", backgroundColor: "#e0e0e0" }}>
       <div className="container">
 
-        <SectionTitle title="Lets work together" quotes="" quotesAuthor=""></SectionTitle>
+        <SectionTitle title="CONTACT ME " quotes="" quotesAuthor=""></SectionTitle>
 
         <Form></Form>
 

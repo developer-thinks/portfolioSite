@@ -1,6 +1,6 @@
 import React from "react";
 import "./Profile.css";
-import profliePic from "../../images/ali-proflie.jpg";
+import profliePic from "../../images/ali-proflie.png";
 
 class Profile extends React.Component {
   render() {
@@ -16,7 +16,7 @@ class Profile extends React.Component {
             <div className="col-sm-4 about-me-col">
               <h2 className="sub-title">About me</h2>
 
-              <div><p className="about-me">Electrical Engineering Student with Bachelor's degree from  BMS College of engineering Bangalore.</p></div>
+              <div><p className="about-me">Engineering Graduate with Bachelor's degree from  BMS College of engineering Bangalore.</p></div>
               <div><p className="about-me">Fashionated coder and interested in competative coding.</p></div>
               {/* <div><p className="about-me">Interested in software development</p></div> */}
               <div><p className="about-me">Self-learner and work on my skills to improve them.</p></div>
@@ -44,10 +44,9 @@ class Profile extends React.Component {
 
 
           <div style={{ textAlign: "center" }}>
-            <h5>My dream has always been to be in a position that can affect millions of people around the world, especially in companies with an unlimited vision that reflects my personality.</h5>
-
+            <h5>  My dream has always been to join companies with an unlimited vision that reflects my personality.   </h5>
           </div>
-
+        {/* My dream has always been to be in a position that can affect millions of people around the world, especially in companies with an unlimited vision that reflects my personality. */}
         </div>
       </div >
     );

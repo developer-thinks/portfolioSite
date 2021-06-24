@@ -84,7 +84,7 @@ const samDetailsGrad = [
 const samDetailsPu = [
   "Karnataka State Board for Higher Secondary Education.",
    "Percentage: 92% ",
-   "CET : 4500.",
+   "CET : 3984.",
 ]
 
 const samDetailsHigh =[
