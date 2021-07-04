@@ -9,7 +9,7 @@ export default function MainCard() {
             <p className="name">SAMMED SANKONATTI</p>
 
             <hr className="line"></hr>
-            <h4 className="status">  Software Developer [to be] • pro-grammer • Gamer • Music • Coffee </h4>
+            <h4 className="status">  Software Developer [to be] • pro-grammer • Gamer </h4>
             {/* <h4 className="status">  Skills : C++ • Javascript  • ReactJs • NextJs • </h4> */}
             <h5 className="status1">My laptop knows my coding skills better than anyone.</h5>
             {/* <h5 className="status1">Most of my power lies in the tip of my fingers</h5> */}
