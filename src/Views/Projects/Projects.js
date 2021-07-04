@@ -13,7 +13,7 @@ export default function Projects() {
     <div id="Projects" className="section">
       <div className="container">
 
-        <SectionTitle title="PROJECTS" quotes={projectsQuote} quotesAuthor={projectsQuoteAuthor}></SectionTitle>
+        <SectionTitle title="PROJECTS" quotes={" "} quotesAuthor={" "}></SectionTitle>
 
         <Project name="Pathfinding Visualizer" details={pathfinding} projectLink="https://sammed-sankonatti.github.io/pathfinder/" pic={pathfindingPic}></Project>
         <hr></hr>

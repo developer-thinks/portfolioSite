@@ -82,9 +82,9 @@
 }
 
 .proflie-img {
-  border-radius: 50%;
+  border-radius: 70%;
   /* width: 400px; */
-  height: 350px;
+  height: 400px;
   object-fit: contain;
   /* box-shadow:
   0 2.8px 2.2px rgba(0, 0, 0, 0.034),

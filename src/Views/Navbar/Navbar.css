@@ -20,7 +20,7 @@
 }
 
 a.active > .nav-item {
-  background-color: #ff6600 !important;
+  background-color: #36869e !important;
 }
 
 .nav-item :hover .title {
@@ -66,7 +66,7 @@ a.active > .nav-item {
   position: absolute;
   height: 9px;
   width: 100%;
-  background: #ff6600;
+  background: #b7dd0d;
 
   border-radius: 9px;
   opacity: 1;

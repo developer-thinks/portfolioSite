@@ -147,7 +147,7 @@ class Navbar extends React.Component {
               <div className="title">Skills</div>
             </div>
           </Link>
-
+{/* 
           <Link
             activeClass="active"
             to="Volunteer"
@@ -160,7 +160,7 @@ class Navbar extends React.Component {
             <div className="nav-item">
               <div className="title">Volunteer</div>
             </div>
-          </Link>
+          </Link> */}
 
           <Link
             activeClass="active"

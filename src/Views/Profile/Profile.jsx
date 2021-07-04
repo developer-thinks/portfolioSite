@@ -16,11 +16,11 @@ class Profile extends React.Component {
             <div className="col-sm-4 about-me-col">
               <h2 className="sub-title">About me</h2>
 
-              <div><p className="about-me">Engineering Graduate with Bachelor's degree from  BMS College of engineering Bangalore.</p></div>
-              <div><p className="about-me">Fashionated coder and interested in competative coding.</p></div>
-              {/* <div><p className="about-me">Interested in software development</p></div> */}
-              <div><p className="about-me">Self-learner and work on my skills to improve them.</p></div>
-              <div><p className="about-me">Looking for a new challenge as a Software engineer or a full-stack position, with the possibility of a Full-time job.</p></div>
+              <div><p className="about-me">Engineering Graduate from BMS College of engineering Bangalore. Fashionated coder, Self-learner and team player. Always open to explore new opportunities.</p></div>
+              <div><p className="about-me">Apart from studies i am an ultimate Gamer </p></div>
+              <div><p className="about-me"> Competative coding is my hobby. </p></div>
+              <div><p className="about-me">Loves Cricket and Football, Fitness,  chess player,  running is my daily routine.  </p></div>
+              {/* <div><p className="about-me">Looking for a new challenge as a Software engineer or a full-stack position, with the possibility of a Full-time job.</p></div> */}
             </div>
             <div className="col-sm-5 image-col">
               <img className="proflie-img" src={profliePic} alt="profile"></img>
@@ -44,7 +44,7 @@ class Profile extends React.Component {
 
 
           <div style={{ textAlign: "center" }}>
-            <h5>  My dream has always been to join companies with an unlimited vision that reflects my personality.   </h5>
+            {/* <h5>  My dream has always been to join companies with an unlimited vision that reflects my personality.   </h5> */}
           </div>
         {/* My dream has always been to be in a position that can affect millions of people around the world, especially in companies with an unlimited vision that reflects my personality. */}
         </div>

@@ -19,7 +19,7 @@ ReactDOM.render(
     <div>
       <Main />
       <Navbar />
-      <Profile />
+      {/* <Profile /> */}
       <Experience />
       <Projects />
       <Skills />

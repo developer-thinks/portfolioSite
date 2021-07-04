@@ -84,9 +84,9 @@ class Form extends React.Component {
     return (
 
       <form id="myForm" className="card" onSubmit={this.handleOnSubmit}>
-        <div className="cardHeader">
+        {/* <div className="cardHeader">
           <h5 style={{ color: "white" }}>I am sure that the combination of my skills and motivation with your company vision will lead to the greatest technologies that change the world for the better.</h5>
-        </div>
+        </div> */}
 
         <div className="row">
           <div className="col-sm-6">
