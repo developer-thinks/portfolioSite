@@ -64,8 +64,9 @@ div.scroll:hover .scrollText {
 .status1 {
   margin-left: 3vw;
   margin-right: 3vw;
-  font-size: 28px;
+  font-size: 30px;
   font-family: 'roboto', sans-serif;
+  font-weight: bold;
   /* color: #FFFF00; */
   color: rgb(53, 7, 7);
 }
@@ -99,10 +100,10 @@ div.scroll:hover .scrollText {
   }
 
   .status{
-    font-size: 30px;
+    font-size: 26px;
   }
   .status1{
-    font-size: 22px;
+    font-size: 24px;
   }
   .scrollText {
     font-size: 16px;
