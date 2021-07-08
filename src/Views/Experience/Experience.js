@@ -78,13 +78,13 @@ const smarUpDetails = [
 
 const samDetailsGrad = [
   "BMS college of Engineering Bangalore",
-  " CGPA: 8.2"
+  " CGPA: 8.5"
 ]
 
 const samDetailsPu = [
   "Karnataka State Board for Higher Secondary Education.",
-   "Percentage: 92% ",
-   "CET : 3984.",
+   "Percentage: 93% ",
+   "CET : 2984.",
 ]
 
 const samDetailsHigh =[
